@@ -1,0 +1,7 @@
+{
+  "name": "LP Helper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
