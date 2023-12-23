@@ -22,7 +22,6 @@ schema.graphql
 .DS_Store
 
 .env
-.env.production
 
 .env.local
 .env.development.local
