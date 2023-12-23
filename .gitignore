@@ -21,7 +21,8 @@ schema.graphql
 # misc
 .DS_Store
 
-!.env
+.env
+.env.production
 
 .env.local
 .env.development.local
