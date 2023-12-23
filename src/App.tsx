@@ -1,13 +1,13 @@
 import { Redirect, Route } from 'react-router-dom';
 import {
-  IonApp,
-  IonIcon,
-  IonLabel,
-  IonRouterOutlet,
-  IonTabBar,
-  IonTabButton,
-  IonTabs,
-  setupIonicReact
+	IonApp,
+	IonIcon,
+	IonLabel,
+	IonRouterOutlet,
+	IonTabBar,
+	IonTabButton,
+	IonTabs,
+	setupIonicReact,
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 
@@ -40,40 +40,40 @@ import './theme/variables.css';
 setupIonicReact();
 
 const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonTabs>
-        <IonRouterOutlet>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/accounts">
-            <Accounts />
-          </Route>
-          <Route path="/settings">
-            <Settings />
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/tab1" />
-          </Route>
-        </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon aria-hidden="true" icon={home} />
-            <IonLabel>Home</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon aria-hidden="true" icon={list} />
-            <IonLabel>Accounts</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon aria-hidden="true" icon={cog} />
-            <IonLabel>Settings</IonLabel>
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </IonReactRouter>
-  </IonApp>
+	<IonApp>
+		<IonReactRouter>
+			<IonTabs>
+				<IonRouterOutlet>
+					<Route exact path="/home">
+						<Home />
+					</Route>
+					<Route exact path="/accounts">
+						<Accounts />
+					</Route>
+					<Route path="/settings">
+						<Settings />
+					</Route>
+					<Route exact path="/">
+						<Redirect to="/tab1" />
+					</Route>
+				</IonRouterOutlet>
+				<IonTabBar slot="bottom">
+					<IonTabButton tab="tab1" href="/tab1">
+						<IonIcon aria-hidden="true" icon={home} />
+						<IonLabel>Home</IonLabel>
+					</IonTabButton>
+					<IonTabButton tab="tab2" href="/tab2">
+						<IonIcon aria-hidden="true" icon={list} />
+						<IonLabel>Accounts</IonLabel>
+					</IonTabButton>
+					<IonTabButton tab="tab3" href="/tab3">
+						<IonIcon aria-hidden="true" icon={cog} />
+						<IonLabel>Settings</IonLabel>
+					</IonTabButton>
+				</IonTabBar>
+			</IonTabs>
+		</IonReactRouter>
+	</IonApp>
 );
 
 export default App;

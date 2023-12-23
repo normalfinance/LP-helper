@@ -1,7 +1,7 @@
 {
-  "name": "Normal LP Helper",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
+	"name": "Normal LP Helper",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "react-vite"
 }

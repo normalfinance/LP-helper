@@ -1,12 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.normalfinance.lp-helper',
-  appName: 'Normal LP Helper',
-  webDir: 'dist',
-  server: {
-    androidScheme: 'https'
-  }
+	appId: 'io.normalfinance.lp-helper',
+	appName: 'Normal LP Helper',
+	webDir: 'dist',
+	server: {
+		androidScheme: 'https',
+	},
 };
 
 export default config;
