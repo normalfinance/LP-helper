@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'LP Helper',
+  appId: 'io.normalfinance.lp-helper',
+  appName: 'Normal LP Helper',
   webDir: 'dist',
   server: {
     androidScheme: 'https'
