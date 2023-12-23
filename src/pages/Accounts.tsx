@@ -52,10 +52,6 @@ const Accounts: React.FC = () => {
 					</IonToolbar>
 				</IonHeader>
 
-				<IonListHeader className="ion-list-header-small">
-					<IonLabel>Accounts ({accounts.length})</IonLabel>
-				</IonListHeader>
-
 				<IonModal
 					ref={modal}
 					trigger="open-modal"
@@ -93,6 +89,10 @@ const Accounts: React.FC = () => {
 						</IonItem>
 					</IonContent>
 				</IonModal>
+
+				<IonListHeader className="ion-list-header-small">
+					<IonLabel>Accounts ({accounts.length})</IonLabel>
+				</IonListHeader>
 
 				<IonList className="list-custom" lines="full">
 					{accounts.map((account: any, index: number) => {

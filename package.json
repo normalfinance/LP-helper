@@ -33,6 +33,7 @@
 		"@types/react-router": "^5.1.20",
 		"@types/react-router-dom": "^5.3.3",
 		"@uniswap/sdk-core": "^4.0.10",
+		"ethers": "^5.7.2",
 		"ionicons": "^7.0.0",
 		"localforage": "^1.10.0",
 		"ms": "^2.1.3",
